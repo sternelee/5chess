@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  border:none;
+  font-style:normal;
+}
+html,body{
+  font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background:url(asset/bg.jpg) left top repeat;
+}
+ul,ol,li{
+  list-style:none;
+}
+.App {
+  width: 100%;
+  position: relative;
+}
+.game{
+  width:640px;
+  height:640px;
+  margin:0 auto;
+  position: relative;
+}
+.bg{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  overflow:hidden;
+  border-left:1px solid #000;
+  border-right: 1px solid #000;
+  border-top:1px solid #000;
+  z-index: 1;
+  background:url(asset/wood.jpg) left top repeat;
+}
+.bg i{
+  width: 40px;
+  height: 40px;
+  border:1px solid #000;
+  box-sizing: border-box;
+  float:left;
+}
+.box{
+  width:96%;
+  height: 96%;
+  overflow: hidden;
+  position: absolute;
+  left:20px;
+  top: 20px;
+  z-index: 3;
+}
+.box span{
+  width: 40px;
+  height: 40px;
+  float:left;
+  background-size: 100% 100%;
+}
+.b{
+  background:url(asset/b.png) center center no-repeat;
+}
+.w{
+  background:url(asset/w.png) center center no-repeat;
+}
+
+.tip{
+  text-align: center;
+  font-size: 36px;
+}
+.tip .black{
+  color:black;
+}
+.tip .white{
+  color:white;
+}
+
+.sider{
+  position: absolute;
+  left:50%;
+  margin-left: 340px;
+}
+
+.sider b{
+  font-size: 20px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
